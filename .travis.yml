@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "6"
+script: npm run build
+deploy:
+  provider: surge
+  project: ./dist/
+  domain: mcfatter-dmmd-2017.surge.sh
+  skip_cleanup: true
