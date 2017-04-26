@@ -1,7 +1,12 @@
 import * as React from 'react'
 import { render } from 'react-dom'
+import Ivy from 'ivy-stories'
+
+import first from './frames/Intro'
+
+window.React = React
 
 render(
-  <span>Hello world!</span>,
+  <Ivy initialFrame={first} />,
   document.getElementById('root')
 )
