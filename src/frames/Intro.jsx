@@ -4,8 +4,8 @@ import ChoiceB from './ChoiceB'
 export default (panel) => ({
   background: () => (<span>Intro</span>), // TODO: Implement YT Video background
   timeline: [
-    // TODO: Play the background video as soon as frame loads
-    panel.wait(1000), // TODO: Wait for the length of the video (or until options are shown)
+    panel.awaitEvent('youtube-ready'),
+    panel.wait(1000), // TODO: Get length of video and place time here
     panel.showOptions()
   ],
   options: [

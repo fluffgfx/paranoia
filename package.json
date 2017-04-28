@@ -25,8 +25,9 @@
     "webpack": "^2.4.1"
   },
   "dependencies": {
-    "ivy-stories": "^0.0.2",
+    "ivy-stories": "^0.0.3",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-youtube": "^7.4.0"
   }
 }
