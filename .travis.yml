@@ -5,5 +5,5 @@ script: npm run build
 deploy:
   provider: surge
   project: ./dist/
-  domain: mcfatter-dmmd-2017.surge.sh
+  domain: play.paranoia.rocks
   skip_cleanup: true
