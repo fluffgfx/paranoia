@@ -1,11 +1,13 @@
 import ChoiceA from './ChoiceA'
 import ChoiceB from './ChoiceB'
 
+import Background from '../Background'
+
 export default (panel) => ({
-  background: () => (<span>Intro</span>), // TODO: Implement YT Video background
+  background: ({ ...props }) => (<Background {...props} id='1PEcQ6PyWiA' />), // TODO: Actually upload video
   timeline: [
     panel.awaitEvent('youtube-ready'),
-    panel.wait(1000), // TODO: Get length of video and place time here
+    panel.wait(175000),
     panel.showOptions()
   ],
   options: [

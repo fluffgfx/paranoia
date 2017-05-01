@@ -7,3 +7,5 @@ class OptsPanel extends React.Component {
     )
   }
 }
+
+export default OptsPanel
