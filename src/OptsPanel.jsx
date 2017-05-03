@@ -3,7 +3,11 @@ import * as React from 'react'
 class OptsPanel extends React.Component {
   render () {
     return (
-      <span>{/* TODO */}</span>
+      <div style={{
+        ...this.props.defaultStyle
+      }}>
+        <span>TODO</span>
+      </div>
     )
   }
 }
