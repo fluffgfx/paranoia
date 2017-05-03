@@ -1,7 +1,7 @@
 import ChoiceC from './ChoiceC'
 import ChoiceD from './ChoiceD'
 
-import Background from './Background'
+import Background from '../Background'
 
 // rebecca chooses to kill dennis
 export default (panel) => ({
