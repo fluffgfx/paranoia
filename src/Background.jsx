@@ -59,14 +59,29 @@ class Background extends React.Component {
     return (
       <div
         style={{
-          'pointer-events': 'none',
+          pointerEvents: 'none',
+          position: 'relative',
+          width: '100%',
+          height: '100%'
           // TODO: Block out top and bottom with black bars?
         }}>
         <YT
           videoId={this.props.id}
           opts={opts}
-          onReady={this.onReady} />
-        {/* <div>Loading</div> */}
+          onReady={this.onReady}
+          onEnd={() => { this.setState({ loaded: false }) }} />
+        <div style={{
+          pointerEvents: 'none',
+          opacity: this.state.loaded ? 0 : 1,
+          width: '100%',
+          height: '100%',
+          position: 'absolute',
+          top: '0',
+          left: '0',
+          backgroundColor: 'black',
+          transition: 'opacity 0.25s ease-in'
+        }}>
+        </div>
       </div>
     )
   }

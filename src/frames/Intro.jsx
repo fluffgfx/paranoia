@@ -11,7 +11,7 @@ export default (panel) => ({
     panel.showOptions()
   ],
   options: [
-    { text: 'Kill Dennis.', onSelect: () => { panel.go(ChoiceA)() } },
-    { text: 'Spare Dennis.', onSelect: () => { panel.go(ChoiceB)() } }
+    { text: 'ACCUSE DENNIS', onSelect: () => { panel.go(ChoiceA)() } },
+    { text: 'KILL DENNIS', onSelect: () => { panel.go(ChoiceB)() } }
   ]
 })
