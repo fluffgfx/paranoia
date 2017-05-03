@@ -1,8 +1,11 @@
 import ChoiceC from './ChoiceC'
 import ChoiceD from './ChoiceD'
 
+import Background from './Background'
+
+// rebecca chooses to kill dennis
 export default (panel) => ({
-  background: () => (<span>Panel A</span>), // TODO: Implement yt video background
+  background: ({ ...props }) => (<Background {...props} id='Qqom-eAIGK8' />),
   timeline: [
     panel.awaitEvent('youtube-ready'),
     panel.wait(1000), // TODO: Get length of video and place time here
