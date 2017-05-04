@@ -1514,9 +1514,9 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
-ivy-stories@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/ivy-stories/-/ivy-stories-0.0.5.tgz#0b3f18c5b56d2d2a0d63de1ffe871dacfa0032cb"
+ivy-stories@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/ivy-stories/-/ivy-stories-0.0.6.tgz#8b7c08a5abb3ab8438d7f44e7a39f5dca080f3c8"
   dependencies:
     ev-emitter "^1.0.3"
 

@@ -1,5 +1,5 @@
 export default (panel) => ({
-  background: () => (<span>Panel H</span>), // TODO: Implement yt video background
+  background: ({ ...props }) => (<Background {...props} id='06IJt06rI04' />),
   timeline: [
     panel.awaitEvent('youtube-ready'),
     panel.wait(1000), // TODO: Get length of video and place time here
