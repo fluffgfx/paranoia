@@ -2,7 +2,7 @@ const c = require('./webpack.config')
 
 const webpack = require('webpack')
 
-return Object.assign({}, c, {
+module.exports = Object.assign({}, c, {
   plugins: (c.plugins || []).concat([
     new webpack.optimize.UglifyJsPlugin(),
     new webpack.optimize.OccurrenceOrderPlugin(),
