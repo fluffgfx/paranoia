@@ -1,6 +1,8 @@
 import ChoiceI from './ChoiceI'
 import ChoiceJ from './ChoiceJ'
 
+import Background from '../Background'
+
 export default (panel) => ({
   background: ({ ...props }) => (<Background {...props} id='MTTR5m5xR18' />), // TODO: Implement yt video background
   timeline: [

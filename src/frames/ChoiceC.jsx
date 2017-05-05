@@ -1,6 +1,8 @@
 import ChoiceG from './ChoiceG'
 import ChoiceH from './ChoiceH'
 
+import Background from '../Background'
+
 export default (panel) => ({
   background: ({ ...props }) => (<Background {...props} id='YVVgNX_CCBo' />),
   timeline: [

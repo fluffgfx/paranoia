@@ -1,3 +1,5 @@
+import Background from '../Background'
+
 export default (panel) => ({
   background: ({ ...props }) => (<Background {...props} id='pewzcZn8vd0' />),
   timeline: [

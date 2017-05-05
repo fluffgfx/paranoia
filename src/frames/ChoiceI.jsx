@@ -1,3 +1,5 @@
+import Background from '../Background'
+
 export default (panel) => ({
   background: ({ ...props }) => (<Background {...props} id='U3aGisC_I8Y' />), // TODO: Implement yt video background
   timeline: [
