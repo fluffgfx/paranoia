@@ -9,7 +9,7 @@ export default (panel) => ({
     panel.showOptions()
   ],
   options: [
-    { text: 'CHOICE C OPTION A', onSelect: () => { panel.go(ChoiceG)() } },
-    { text: 'CHOICE C OPTION B', onSelect: () => { panel.go(ChoiceH)() } }
+    { text: 'ACCUSE KRYSTAL', onSelect: () => { panel.go(ChoiceG)() } },
+    { text: 'BELIEVE KRYSTAL', onSelect: () => { panel.go(ChoiceH)() } }
   ]
 })
