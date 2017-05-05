@@ -7,7 +7,7 @@ export default (panel) => ({
   background: ({ ...props }) => (<Background {...props} id='uwa73LnXGdM' />),
   timeline: [
     panel.awaitEvent('youtube-ready'),
-    panel.wait(1000), // TODO: Get vid length
+    panel.wait(345000), // TODO: Get vid length
     panel.showOptions()
   ],
   options: [
