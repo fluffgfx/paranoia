@@ -41,7 +41,7 @@ class Wrapper extends React.Component {
   render () {
     const { height, width } = this.state
     return (
-      <Ivy initialFrame={first} optionsPanel={OptsPanel} height={height} width={width} />
+      <Ivy initialFrame={first} optionsPanel={OptsPanel} height={height} width={width} style={{ cursor: 'crosshair' }} />
     )
   }
 }

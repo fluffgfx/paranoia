@@ -22,8 +22,7 @@ class OptsPanel extends React.Component {
         position: 'absolute',
         top: '0',
         left: '0',
-        pointerEvents: 'none',
-        cursor: 'crosshair'
+        pointerEvents: 'none'
       }}>
         { this.props.visible
           ? <div style={{
