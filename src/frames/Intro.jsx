@@ -11,7 +11,7 @@ export default (panel) => ({
     panel.showOptions()
   ],
   options: [
-    { text: 'ASDASFASFASFAS', onSelect: () => { panel.go(ChoiceC)() } },
-    { text: 'ASFASFASDASDAS', onSelect: () => { panel.go(ChoiceD)() } }
+    { text: 'ASDASFASFASFAS', onSelect: () => { panel.go(ChoiceD)() } },
+    { text: 'ASFASFASDASDAS', onSelect: () => { panel.go(ChoiceC)() } }
   ]
 })

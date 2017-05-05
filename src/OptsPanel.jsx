@@ -9,7 +9,8 @@ const pStyle = {
   position: 'absolute',
   left: '50%',
   transform: 'translateX(-50%)',
-  letterSpacing: '0.5em'
+  letterSpacing: '0.5em',
+  cursor: 'pointer'
 }
 
 class OptsPanel extends React.Component {
@@ -21,7 +22,8 @@ class OptsPanel extends React.Component {
         position: 'absolute',
         top: '0',
         left: '0',
-        pointerEvents: 'none'
+        pointerEvents: 'none',
+        cursor: 'crosshair'
       }}>
         { this.props.visible
           ? <div style={{
