@@ -1,7 +1,7 @@
 import Credits from './Credits'
 import Intro from './Intro'
 
-import Background from './Background'
+import Background from '../Background'
 
 export default (panel) => ({
   background: ({ ...props }) => (<Background {...props} id='gyK7UNrAEYA' />), // TODO: Implement yt video background
