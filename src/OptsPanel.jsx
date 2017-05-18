@@ -29,7 +29,7 @@ class OptsPanel extends React.Component {
               position: 'relative',
               width: '100%',
               // note: 28.125vw + 50vh = bottom of video
-              top: 'calc(50% + 17.5vw)', // love 2 hard code magic numbers
+              top: 'calc(50% + 18.5vw)', // love 2 hard code magic numbers
               height: '100px',
               transform: 'translateY(-50%)',
               textAlign: 'center',
