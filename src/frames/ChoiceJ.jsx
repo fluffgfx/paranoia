@@ -4,7 +4,7 @@ import Intro from './Intro'
 import Background from '../Background'
 
 export default (panel) => ({
-  background: ({ ...props }) => (<Background {...props} id='gyK7UNrAEYA' />), // TODO: Implement yt video background
+  background: ({ ...props }) => (<Background {...props} id='4kAqF9RZXk0' />), // TODO: Implement yt video background
   timeline: [
     panel.awaitEvent('youtube-ready'),
     panel.wait(53000), // TODO: Get length of video and place time here
