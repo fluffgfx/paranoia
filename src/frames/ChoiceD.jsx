@@ -8,7 +8,9 @@ export default (panel) => ({
   timeline: [
     panel.awaitEvent('youtube-ready'),
     panel.wait(154000), // TODO: Get length of video and place time here
-    panel.showOptions()
+    panel.showOptions(),
+    panel.wait(15000),
+    panel.go(ChoiceI)
   ],
   options: [
     { text: 'CHOICE D OPTION A', onSelect: () => { panel.go(ChoiceI)() } },

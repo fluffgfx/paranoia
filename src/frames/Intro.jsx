@@ -8,7 +8,9 @@ export default (panel) => ({
   timeline: [
     panel.awaitEvent('youtube-ready'),
     panel.wait(345000), // 345000
-    panel.showOptions()
+    panel.showOptions(),
+    panel.wait(15000),
+    panel.go(Credits)
   ],
   options: [
     { text: 'ASDASFASFASFAS', onSelect: () => { panel.go(ChoiceD)() } },

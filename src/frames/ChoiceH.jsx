@@ -8,7 +8,9 @@ export default (panel) => ({
   timeline: [
     panel.awaitEvent('youtube-ready'),
     panel.wait(50000), // TODO: Get length of video and place time here
-    panel.showOptions()
+    panel.showOptions(),
+    panel.wait(15000),
+    panel.go(Credits)
   ],
   options: [
     { text: 'BY TRIGGERED KIDS AND FAKERS', onSelect: () => { panel.go(Intro)() } },
