@@ -10,7 +10,7 @@ export default (panel) => ({
     panel.wait(345000), // 345000
     panel.showOptions(),
     panel.wait(15000),
-    panel.go(Credits)
+    panel.go(ChoiceC)
   ],
   options: [
     { text: 'ASDASFASFASFAS', onSelect: () => { panel.go(ChoiceD)() } },
